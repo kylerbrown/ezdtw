@@ -1,11 +1,11 @@
-# EZDTW
+# ezdtw
 
 ![example](example/example.png)
 
 
-EZDTW is a simple dynamic time warping implementation in pure Python, intended for warping acoustic spectrograms.
+`ezdtw` is a pure Python dynamic time warping library, intended for warping acoustic spectrograms.
 
-The implementation uses two tricks to be have reasonable performance:
+This implementation uses two tricks to be have reasonable performance:
 
 1. Distances are computed using Scipy's cdist function.
 2. The cumulative minimum distance calculation uses the [numba](https://numba.pydata.org) jit compiler for a 500x speedup.
