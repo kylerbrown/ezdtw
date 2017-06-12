@@ -14,6 +14,7 @@ Computing the warp path between two typical zebra finch song motif spectrograms 
 
 ## Requirments
 
++ Python 3
 + numpy
 + scipy
 + numba
