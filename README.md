@@ -20,7 +20,7 @@ Computing the warp path between two typical zebra finch song motif spectrograms 
 
 You may want to use [resin](https://github.com/kylerbrown/resin) for creating spectrograms.
 
-## installation
+## Installation
 ````shell
 git clone https://github.com/kylerbrown/ezdtw.git
 cd ezdtw
